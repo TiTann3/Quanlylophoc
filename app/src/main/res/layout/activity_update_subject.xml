@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityUpdateSubject">
+
+    <ImageButton
+        android:id="@+id/ibtnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/ic_arrow_back_black_24dp"/>
+    <TextView
+        android:layout_marginTop="40dp"
+        android:textColor="#F44336"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:text="Cập Nhật Thông Tin Môn Học"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+    <EditText
+        android:id="@+id/edtSubjectName"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="Tên môn học"
+        android:layout_width="300dp"
+        android:layout_height="60dp"></EditText>
+    <EditText
+        android:id="@+id/edtDecription"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="Mô tả"
+        android:layout_width="300dp"
+        android:layout_height="60dp"></EditText>
+    <EditText
+        android:inputType="number"
+        android:id="@+id/edtCredits"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="Số tín chỉ"
+        android:layout_width="300dp"
+        android:layout_height="60dp"></EditText>
+    <EditText
+        android:id="@+id/edtUpdateTime"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="Thời gian"
+        android:layout_width="300dp"
+        android:layout_height="60dp"></EditText>
+    <Spinner
+        android:id="@+id/spnUpdateTeacher"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="60dp"></Spinner>
+    <Button
+        android:id="@+id/btnUpdateSubject"
+        android:layout_marginTop="20dp"
+        android:text="Cập nhật"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+
+</LinearLayout>

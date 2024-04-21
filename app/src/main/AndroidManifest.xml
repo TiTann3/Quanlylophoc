@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.quanly_hssv">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Quanly_HSSV">
+        <activity
+            android:name=".ActivityInformationClass"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityAddScore"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityUpdateScore"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityStudent"
+            android:exported="false" />
+        <activity
+            android:name=".ActicityAddClass"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityUpdateClass"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityUpdateTeacher"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityClass"
+            android:exported="false" />
+        <activity
+            android:name=".ActicityAddTeacher"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityScore"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityTeacher"
+            android:exported="false" />
+        <activity android:name=".ActivityUpdateStudent" />
+        <activity android:name=".ActivityInformationStudent" />
+        <activity android:name=".ActivityAddStudent" />
+        <activity android:name=".ActivityInformationSubject" />
+        <activity android:name=".ActivityInformationScore" />
+        <activity android:name=".ActivityUpdateSubject" />
+        <activity android:name=".ActivityAddSubjects" />
+        <activity android:name=".ActivitySubjects" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

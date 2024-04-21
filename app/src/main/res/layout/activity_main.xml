@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B1C8D3"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="Quản Lý Học Sinh - Sinh Viên"
+        android:textColor="#FF0000"
+        android:textSize="30sp"
+        android:textStyle="bold"></TextView>
+
+    <Button
+        android:id="@+id/btnStudent"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="#75A877"
+        android:text="Danh Sách HS-SV"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"></Button>
+
+    <Button
+        android:id="@+id/btnSubjects"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#75A877"
+        android:text="Danh Sách Môn Học"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"></Button>
+
+    <Button
+        android:id="@+id/btnTeacher"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#75A877"
+        android:text="Danh Sách Giáo Viên"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"></Button>
+
+    <Button
+        android:id="@+id/btnClass"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#75A877"
+        android:text="Danh Sách Lớp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"></Button>
+
+    <Button
+        android:id="@+id/btnScore"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#75A877"
+        android:text="Quản Lý Điểm"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"></Button>
+
+    <Button
+        android:id="@+id/buttonExit"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#75A877"
+        android:text="Thoát"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"></Button>
+
+</LinearLayout>

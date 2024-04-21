@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityAddStudent">
+    <ImageButton
+        android:id="@+id/ibtnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/ic_arrow_back_black_24dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Cập Nhật Thông Tin Học Sinh"
+        android:textColor="#F44336"
+        android:textSize="30sp"
+        android:textStyle="bold"></TextView>
+    <EditText
+        android:id="@+id/edtUpdateStudentCode"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="Mã học sinh"
+        android:layout_width="300dp"
+        android:layout_height="60dp"></EditText>
+    <EditText
+        android:id="@+id/edtUpdateStudentName"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="Họ tên"
+        android:layout_width="300dp"
+        android:layout_height="60dp"></EditText>
+    <EditText
+        android:id="@+id/edtUpdateStudentDob"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="Ngày sinh"
+        android:layout_width="300dp"
+        android:layout_height="60dp"></EditText>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:text="Giới tính : "
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"></TextView>
+    <RadioGroup
+        android:paddingTop="15dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="70dp">
+        <RadioButton
+            android:checked="true"
+            android:textColor="#000000"
+            android:id="@+id/rbtnMale"
+            android:text="Nam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></RadioButton>
+        <RadioButton
+            android:textColor="#000000"
+            android:id="@+id/rbtnFemale"
+            android:layout_marginLeft="100dp"
+            android:text="Nữ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></RadioButton>
+    </RadioGroup>
+    <EditText
+        android:id="@+id/edtUpdateStudentAddress"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="Địa chỉ"
+        android:layout_width="300dp"
+        android:layout_height="60dp"></EditText>
+    <Spinner
+        android:id="@+id/spnUpdateClassStudent"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="Địa chỉ"
+        android:layout_width="300dp"
+        android:layout_height="60dp"/>
+    <Button
+        android:id="@+id/buttonUpdateStudent"
+        android:layout_marginTop="10dp"
+        android:text="Update"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+
+</LinearLayout>

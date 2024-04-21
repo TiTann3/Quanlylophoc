@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityUpdateScore">
+
+
+    <ImageButton
+        android:id="@+id/ibtnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/ic_arrow_back_black_24dp"/>
+    <TextView
+        android:layout_marginTop="50dp"
+        android:textColor="#F44336"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:text="Cập Nhật Điểm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:id="@+id/txtSubjectNameScore"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"
+        android:text="Tên môn học"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_width="300dp"
+        android:layout_height="60dp"></TextView>
+    <EditText
+        android:id="@+id/edtScoreValue"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="Điểm"
+        android:layout_width="300dp"
+        android:layout_height="60dp"></EditText>
+
+    <Button
+        android:id="@+id/btnUpdateScore"
+        android:layout_marginTop="20dp"
+        android:text="Cập nhật"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+
+</LinearLayout>
